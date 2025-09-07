@@ -7,7 +7,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "validate-db": "npx tsx scripts/validate-database.ts"
   },
   "repository": {
     "type": "git",
@@ -34,11 +35,13 @@
     "html2canvas": "^1.4.1",
     "jspdf": "^3.0.2",
     "next": "^15.5.2",
+    "playwright": "^1.55.0",
     "postcss": "^8.5.6",
     "puppeteer": "^24.19.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "tailwindcss": "^4.1.13",
+    "rss-parser": "^3.13.0",
+    "tailwindcss": "^3.4.17",
     "typescript": "^5.9.2"
   }
 }
